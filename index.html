@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="./node_modules/web3/dist/web3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" href="main.css">
+	<title>SetName Contract</title>
+</head>
+<body>
+<h3>Prueba para cambiar el nombre de una variable "name" en un contrato</h3>
+	<fieldset>
+		<legend>Set Name</legend>
+		<input type="text" id="name">
+		<input type="button" value="Save Name" id="save_name_btn">
+		<input type="button" value="Get Name" id="get_name_btn">
+	</fieldset>
+	<img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+	<code id="result"></code>
+</body>
+</html>
